@@ -71,3 +71,5 @@ function processPayroll(employee) {
 for (let employee of employees) {
     console.log(processPayroll(employee));
 }
+// Overtime is paid at 1.5 times the hourly rate
+function calculateOvertimePay(rate, hours) {
